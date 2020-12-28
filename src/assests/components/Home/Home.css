@@ -1,9 +1,15 @@
 .homeContainer {
-    /* color: white; */
+    color: white;
     font-family: "Varela Round",sans-serif;
+    background-color: #1d1b1b;
+    min-height: 90vh;
+    text-align: center;
+    padding: 1rem;
 }
+
 .homeGrid {
     border: 1px solid blue;
+    margin-top: 40px !important;
 }
 
 .workingImage {
@@ -17,6 +23,10 @@
 
 .name {
     font-size: 3rem;
+}
+
+.textGrid {
+    padding: 40px 0 30px 60px;
 }
 
 .button {
