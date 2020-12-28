@@ -13,7 +13,7 @@ export const Home = () => {
                     <h1 className="country">from Pakistan</h1>
                 </Grid>
                 <Grid className="homeGrid" item md={6}>
-                    <img src={HomeImage} alt="Working" />
+                    <img className="workingImage" src={HomeImage} alt="Working" />
                 </Grid>
             </Grid>
         </div>
