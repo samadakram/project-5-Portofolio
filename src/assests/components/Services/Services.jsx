@@ -7,22 +7,22 @@ import ReactImage from '../../images/ServicesImages/react.svg';
 export const Services = () => {
     return (
         <div className="servicesContainer">
-            <h1>Services</h1>
+            <h1>Services I Provide</h1>
             <Grid container>
                 <Grid item xs={12} md={6}>
                     <div className="cards">
                         <li>
-                            <img src={WebImage} alt="web"/>
+                            <img src={WebImage} alt="web" />
+                            <p>Web Development</p>
                         </li>
-                        <p>Web Development</p>
                     </div>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                <div className="cards">
+                    <div className="cards">
                         <li>
-                            <img src={ReactImage} alt="react"/>
+                            <img src={ReactImage} alt="react" />
+                            <p>React Development</p>
                         </li>
-                        <p>React Development</p>
                     </div>
                 </Grid>
             </Grid>
