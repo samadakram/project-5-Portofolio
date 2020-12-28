@@ -2,7 +2,14 @@
     border: 1px solid brown;
     font-family: "Varela Round",sans-serif;
     color: black;
-    height: 100%;
+    font-size: 1.3rem;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-top: 8rem;
+}
+
+.serviceHeading {
+    margin: 2rem 0;
 }
 
 .cards {
