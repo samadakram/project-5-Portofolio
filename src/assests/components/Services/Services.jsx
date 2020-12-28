@@ -1,11 +1,12 @@
 import React from 'react';
+import './Services.css';
 import { Grid } from '@material-ui/core';
 import WebImage from '../../images/ServicesImages/web.svg';
 import ReactImage from '../../images/ServicesImages/react.svg';
 
 export const Services = () => {
     return (
-        <div>
+        <div className="servicesContainer">
             <h1>Services</h1>
             <Grid container>
                 <Grid item xs={12} md={6}>
