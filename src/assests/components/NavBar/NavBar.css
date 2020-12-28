@@ -27,4 +27,5 @@ label.logo {
 .navbar ul li a {
     color: white;
     font-size: 17px;
+    text-transform: uppercase;
 }
