@@ -4,6 +4,10 @@ import './NavBar.css';
 export const NavBar = () => {
     return (
         <div className="navbar">
+            <input type="checkbox" id="check"/>
+            <label htmlFor="check">
+                <i className="fas fa-bars"></i>
+            </label>
             <label className="logo"> Samad </label>
             <ul>
                 <li><a className="active" href="#">Home</a></li>
