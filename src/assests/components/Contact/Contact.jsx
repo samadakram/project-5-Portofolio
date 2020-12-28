@@ -29,13 +29,24 @@ export const Contact = () => {
                 <Grid item xs={12} md={4}>
                     <div className="contactCard">
                         <div className="contactIcon">
-                            <i className="fas fa-envelope"></i>
+                            <i className="fas fa-globe"></i>
                         </div>
                         <div className="contactEmail">
-                            <span>Email</span>
+                            <span>Social Media</span>
                         </div>
                         <div className="contactLink">
-                            <span>as765722@gmail.com</span>
+                            <a rel="noopener noreferrer" target="_blank" href="#">
+                                <i class="fab fa-github" title="github" id="github"></i>
+                            </a>
+                            <a rel="noopener noreferrer" target="_blank" href="#">
+                                <i class="fab fa-facebook" title="facebook" id="facebook"></i>
+                            </a>
+                            <a rel="noopener noreferrer" target="_blank" href="#">
+                                <i class="fab fa-twitter" title="twitter" id="twitter"></i>
+                            </a>
+                            <a rel="noopener noreferrer" target="_blank" href="#">
+                                <i class="fab fa-instagram" title="instagram" id="instagram"></i>
+                            </a>
                         </div>
                     </div>
                 </Grid>
