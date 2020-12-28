@@ -7,6 +7,7 @@ import { Home } from './assests/components/Home/Home';
 import { Services } from './assests/components/Services/Services';
 import { Skills } from './assests/components/Skills/Skills';
 import { Projects } from './assests/components/Projects/Projects';
+import { Contact } from './assests/components/Contact/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
