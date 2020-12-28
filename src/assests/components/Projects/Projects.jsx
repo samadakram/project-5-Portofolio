@@ -8,10 +8,30 @@ export const Projects = () => {
             <h1>Projects</h1>
             <div className="projects">
                 <Grid container>
-                    <Grid item className="projectGrid" xs={12} md={6}>Project 1</Grid>
-                    <Grid item className="projectGrid" xs={12} md={6}>Project 2</Grid>
-                    <Grid item className="projectGrid" xs={12} md={6}>Project 3</Grid>
-                    <Grid item className="projectGrid" xs={12} md={6}>Project 4</Grid>
+                    <Grid item className="projectGrid" xs={12} md={6}>
+                        <div className="projectCard">
+                            <div>Image</div>
+                            <div>Text</div>
+                        </div>
+                    </Grid>
+                    <Grid item className="projectGrid" xs={12} md={6}>
+                        <div className="projectCard">
+                            <div>Image</div>
+                            <div>Text</div>
+                        </div>
+                    </Grid>
+                    <Grid item className="projectGrid" xs={12} md={6}>
+                        <div className="projectCard">
+                            <div>Image</div>
+                            <div>Text</div>
+                        </div>
+                    </Grid>
+                    <Grid item className="projectGrid" xs={12} md={6}>
+                        <div className="projectCard">
+                            <div>Image</div>
+                            <div>Text</div>
+                        </div>
+                    </Grid>
                 </Grid>
             </div>
         </div>
