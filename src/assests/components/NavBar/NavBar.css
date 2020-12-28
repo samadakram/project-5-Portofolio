@@ -72,11 +72,14 @@ a.active, a:hover {
         height: 100vh;
         background: #2c3e50;
         top: 80px;
-        left: 0;
+        left: -100%;
         text-align: center;
+        transition: all .5s;
     }
     .navbar ul li {
         display: block;
+        margin: 50px 0;
+        line-height: 30px;
     }
 
     .navbar ul li a {
@@ -85,5 +88,8 @@ a.active, a:hover {
     a:hover,a.active {
         background: none;
         color: #0082e6 !important;
+    }
+    #check:checked ~ ul{
+        left: 0;
     }
 }
