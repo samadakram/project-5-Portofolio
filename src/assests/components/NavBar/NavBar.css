@@ -17,3 +17,9 @@ label.logo {
     float: right;
     margin-right: 20px;
 }
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
