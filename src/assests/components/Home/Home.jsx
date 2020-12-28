@@ -11,6 +11,7 @@ export const Home = () => {
                     <h4 className="welcome">WELCOME TO MY WORLD</h4>
                     <h1 className="name">Hi, I'm Abdul Samad</h1>
                     <h1 className="country">from Pakistan</h1>
+                    <button>Contact me</button>
                 </Grid>
                 <Grid className="homeGrid" item md={6}>
                     <img className="workingImage" src={HomeImage} alt="Working" />
