@@ -9,7 +9,7 @@ export const Services = () => {
         <div className="servicesContainer">
             <h1 className="serviceHeading">Services I Provide</h1>
             <Grid container>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={6}  className="serviceGrid">
                     <div className="cards">
                         <li>
                             <img src={WebImage} alt="web" />
@@ -17,7 +17,7 @@ export const Services = () => {
                         </li>
                     </div>
                 </Grid>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={6} className="serviceGrid">
                     <div className="cards">
                         <li>
                             <img src={ReactImage} alt="react" />
