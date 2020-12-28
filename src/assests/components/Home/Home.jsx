@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import './Home.css';
+import { HomeImage } from '../../../assests/images/HomeImages/selected3.svg';
 
 export const Home = () => {
     return (
@@ -11,7 +12,9 @@ export const Home = () => {
                     <h1 className="name">Hi, I'm Abdul Samad</h1>
                     <h1 className="country">from Pakistan</h1>
                 </Grid>
-                <Grid className="homeGrid" item md={6}>Image</Grid>
+                <Grid className="homeGrid" item md={6}>
+                    <img src={HomeImage} alt="Working" />
+                </Grid>
             </Grid>
         </div>
     );
