@@ -1,3 +1,28 @@
 .servicesContainer {
     border: 1px solid brown;
+    font-family: "Varela Round",sans-serif;
+    color: black;
+    height: 100%;
+}
+
+.cards {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+    box-shadow: 3px 2px 10px grey;
+    border-radius: 20px;
+    height: 9rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.cards li img {
+    height: 3.5rem;
+}
+
+.cards li {
+    font-size: 1rem;
+    font-weight: 700;
 }
