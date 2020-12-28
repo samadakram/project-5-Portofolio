@@ -11,25 +11,49 @@ export const Projects = () => {
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard">
                             <div>Image</div>
-                            <div>Text</div>
+                            <div>
+                                <p>Expense Tracker</p>
+                                <div>
+                                    <i className="fab fa-github"></i>
+                                    <i className="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard">
                             <div>Image</div>
-                            <div>Text</div>
+                            <div>
+                                <p>Covid-19 Tracker</p>
+                                <div>
+                                    <i className="fab fa-github"></i>
+                                    <i className="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard">
                             <div>Image</div>
-                            <div>Text</div>
+                            <div>
+                                <p>Shoes Store</p>
+                                <div>
+                                    <i className="fab fa-github"></i>
+                                    <i className="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard">
                             <div>Image</div>
-                            <div>Text</div>
+                            <div>
+                                <p>Cortex Clone</p>
+                                <div>
+                                    <i className="fab fa-github"></i>
+                                    <i className="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
                         </div>
                     </Grid>
                 </Grid>
