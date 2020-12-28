@@ -35,16 +35,16 @@ export const Contact = () => {
                             <span>Social Media</span>
                         </div>
                         <div className="contactLink">
-                            <a rel="noopener noreferrer" target="_blank" href="#">
+                            <a rel="noopener noreferrer" target="_blank" href="https://github.com/samadakram">
                                 <i class="fab fa-github" title="github" id="github"></i>
                             </a>
-                            <a rel="noopener noreferrer" target="_blank" href="#">
+                            <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/a.samad.737">
                                 <i class="fab fa-facebook" title="facebook" id="facebook"></i>
                             </a>
-                            <a rel="noopener noreferrer" target="_blank" href="#">
+                            <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/asamad737">
                                 <i class="fab fa-twitter" title="twitter" id="twitter"></i>
                             </a>
-                            <a rel="noopener noreferrer" target="_blank" href="#">
+                            <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/mir_samad_baloch/">
                                 <i class="fab fa-instagram" title="instagram" id="instagram"></i>
                             </a>
                         </div>
