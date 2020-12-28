@@ -50,7 +50,19 @@ export const Contact = () => {
                         </div>
                     </div>
                 </Grid>
-                <Grid item xs={12} md={4}>Phone</Grid>
+                <Grid item xs={12} md={4}>
+                    <div className="contactCard">
+                        <div className="contactIcon">
+                            <i className="fas fa-phone"></i>
+                        </div>
+                        <div className="contactEmail">
+                            <span>Phone</span>
+                        </div>
+                        <div className="contactLink">
+                            <span>+923213143790</span>
+                        </div>
+                    </div>
+                </Grid>
             </Grid>
         </div>
     );
