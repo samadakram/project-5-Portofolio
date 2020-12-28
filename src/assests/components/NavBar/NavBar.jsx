@@ -5,7 +5,7 @@ export const NavBar = () => {
     return (
         <div className="navbar">
             <input type="checkbox" id="check"/>
-            <label htmlFor="check">
+            <label htmlFor="check" className="checkbtn">
                 <i className="fas fa-bars"></i>
             </label>
             <label className="logo"> Samad </label>
