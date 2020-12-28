@@ -5,6 +5,7 @@ import './App.module.css';
 import { NavBar } from './assests/components/NavBar/NavBar';
 import { Home } from './assests/components/Home/Home';
 import { Services } from './assests/components/Services/Services';
+import { Skills } from './assests/components/Skills/Skills';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Home />
       <Services />
+      <Skills />
     </div>
   );
 }
