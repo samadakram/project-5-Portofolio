@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import './Home.css';
-import { HomeImage } from '../../../assests/images/HomeImages/selected3.svg';
+import HomeImage from '../../../assests/images/HomeImages/selected3.svg';
 
 export const Home = () => {
     return (
