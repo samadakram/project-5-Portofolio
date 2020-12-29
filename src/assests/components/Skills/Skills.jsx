@@ -6,7 +6,7 @@ export const Skills = () => {
     return (
         <div className="skillsContainer">
             <h1 class="skillsHeading">What I Am Good At &nbsp;&nbsp;?</h1>
-            <div>
+            <div className="techs">
                 <Grid container>
                     <Grid item xs={12} sm={4} md={2} className="skillItem">
                         <i className="fab html fa-html5"></i>
