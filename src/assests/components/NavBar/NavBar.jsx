@@ -11,7 +11,7 @@ export const NavBar = () => {
             </label>
             <label className="logo">
                 <Link
-                    to="home"
+                    to="/home"
                     spy={true}
                     smooth={true}
                     duration={500}
