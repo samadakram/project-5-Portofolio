@@ -59,7 +59,7 @@ export const Contact = () => {
                             <span className="span">Phone</span>
                         </div>
                         <div className="contactLink">
-                            <span className="span">+923213143790</span>
+                            <span className="span">(+92) 321 3143790</span>
                         </div>
                     </div>
                 </Grid>
