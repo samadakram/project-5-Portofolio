@@ -19,7 +19,7 @@ export const Projects = () => {
                             <div>
                                 <img src={ExpenseTracker} alt="Expense Tracker" />
                             </div>
-                            <div>
+                            <div className="projectText">
                                 <p>Expense Tracker</p>
                                 <div>
                                     <i className="fab fa-github"></i>
@@ -33,7 +33,7 @@ export const Projects = () => {
                             <div>
                                 <img src={Covid19} alt="Covid-19 Tracker" />
                             </div>
-                            <div>
+                            <div className="projectText">
                                 <p>Covid-19 Tracker</p>
                                 <div>
                                     <i className="fab fa-github"></i>
@@ -44,12 +44,12 @@ export const Projects = () => {
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard">
-                            <div>
+                            <div className="projectText">
                                 <img src={ShoesStore} alt="Shoes Store" />
                             </div>
                             <div>
                                 <p>Shoes Store</p>
-                                <div>
+                                <div className="projectText">
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
                                 </div>
@@ -61,7 +61,7 @@ export const Projects = () => {
                             <div>
                                 <img src={CortexClone} alt="Cortex Clone" />
                             </div>
-                            <div>
+                            <div className="projectText">
                                 <p>Cortex Clone</p>
                                 <div>
                                     <i className="fab fa-github"></i>
