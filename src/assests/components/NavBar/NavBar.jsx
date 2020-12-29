@@ -13,6 +13,7 @@ export const NavBar = () => {
             <ul>
                 <li>
                     <Link
+                    className="active link"
                     activeClass="active"
                     to="home"
                     spy={true}
@@ -20,13 +21,13 @@ export const NavBar = () => {
                     offset={-70}
                     duration={500}
                     >
-                        <a className="active link" href="#">Home</a>
+                       Home
                     </Link>
                 </li>
                 <li>
                     <Link
                     activeClass="active"
-                    to="Services"
+                    to="services"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -38,7 +39,7 @@ export const NavBar = () => {
                 <li>
                     <Link
                     activeClass="active"
-                    to="Skills"
+                    to="skills"
                     spy={true}
                     smooth={true}
                     offset={-70}
