@@ -2,20 +2,20 @@ import React from 'react';
 import { Grid } from '@material-ui/core';
 import './Home.css';
 import HomeImage from '../../../assests/images/HomeImages/selected3.svg';
-// import useWebAnimations from '@wellyshen/use-web-animations';
+import useWebAnimations from '@wellyshen/use-web-animations';
 
 export const Home = () => {
 
-    // const { ref } = useWebAnimations({
-    //     keyframes:[
-    //     { transform: "translateY(-20px)" },
-    //     { transform: "translateY(0)" }
-    // ], timing:{
-    //     duration: 2000,
-    //     iterations: Infinity,
-    //     direction: "alternate",
-    //     easing: "ease-in-out",
-    // }});
+    const { ref } = useWebAnimations({
+        keyframes:[
+        { transform: "translateY(-20px)" },
+        { transform: "translateY(0)" }
+    ], timing:{
+        duration: 2000,
+        iterations: Infinity,
+        direction: "alternate",
+        easing: "ease-in-out",
+    }});
 
     return (
         <div className="homeContainer" id="home">
