@@ -37,9 +37,10 @@ label.logo {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: "Varela Round",sans-serif;
+    cursor: pointer;
 }
 
-a.active, .link:hover {
+.active, .link:hover {
     background: #ffb000;
     transition: .5s;
 }
@@ -93,7 +94,7 @@ a.active, .link:hover {
     .navbar ul li .link {
         font-size: 20px;
     }
-    link:hover,a.active {
+    link:hover,.active {
         background: none;
         color: #0082e6 !important;
     }
