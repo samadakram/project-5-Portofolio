@@ -93,3 +93,12 @@
 .contactLink #instagram:hover {
     color: #d6542d;
 }
+
+.contactGrid {
+    text-align: center;
+}
+
+.contactGridCard {
+    display: flex;
+    justify-content: center;
+}
