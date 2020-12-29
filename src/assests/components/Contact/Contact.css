@@ -16,3 +16,14 @@
     font-family: "Varela Round",sans-serif;
     color: #000;
 }
+
+.contactCard {
+    text-align: center;
+    box-shadow: 3px 2px 10px grey;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 16rem;
+    height: 9rem;
+    margin: 1rem;
+    padding: 1.3rem 0;
+}
