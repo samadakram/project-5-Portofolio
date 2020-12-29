@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 export const Services = () => {
 
     useEffect(()=>{
-        Aos.init({duration:2000});
+        Aos.init({duration:7000});
     },[]);
 
     return (
