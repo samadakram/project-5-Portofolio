@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Projects.css';
 import { Grid } from '@material-ui/core';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 // Import Images
 import ExpenseTracker from '../../images/ProjectImages/expenseTracker.PNG';
@@ -9,13 +11,18 @@ import ShoesStore from '../../images/ProjectImages/shoe-store.PNG';
 import CortexClone from '../../images/ProjectImages/cortex.PNG';
 
 export const Projects = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 3000 });
+    }, []);
+
     return (
-        <div className="projectsContainer" id="portofolio">
+        <div className="projectsContainer" id="portofolio" data-aos="fade-up">
             <h1 className="projectHeading">Projects I have Built</h1>
             <div className="projects">
                 <Grid container>
                     <Grid item className="projectGrid" xs={12} md={6}>
-                        <div className="projectCard">
+                        <div className="projectCard" data-aos="flip-right">
                             <div>
                                 <img src={ExpenseTracker} alt="Expense Tracker" />
                             </div>
@@ -31,7 +38,7 @@ export const Projects = () => {
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
-                        <div className="projectCard">
+                        <div className="projectCard" data-aos="flip-left">
                             <div>
                                 <img src={Covid19} alt="Covid-19 Tracker" />
                             </div>
@@ -47,7 +54,7 @@ export const Projects = () => {
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
-                        <div className="projectCard">
+                        <div className="projectCard" data-aos="flip-right">
                             <div>
                                 <img src={ShoesStore} alt="Shoes Store" />
                             </div>
@@ -63,7 +70,7 @@ export const Projects = () => {
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
-                        <div className="projectCard">
+                        <div className="projectCard" data-aos="flip-left">
                             <div>
                                 <img src={CortexClone} alt="Cortex Clone" />
                             </div>
