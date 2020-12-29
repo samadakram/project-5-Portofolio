@@ -59,13 +59,13 @@ export const NavBar = () => {
                     <Link
                         className="link"
                         activeClass="active"
-                        to="portofolio"
+                        to="portfolio"
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={500}
                     >
-                        Portofolio
+                        Portfolio
                     </Link>
                 </li>
                 <li>
