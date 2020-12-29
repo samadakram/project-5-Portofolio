@@ -1,5 +1,12 @@
 .projectsContainer {
     border: 1px solid purple;
+    margin: 3rem 0;
+    font-family: "Varela Round",sans-serif;
+    color: black;
+}
+
+.projectHeading {
+    margin: 2rem 0;
 }
 
 .projectGrid {
