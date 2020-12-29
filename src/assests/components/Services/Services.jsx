@@ -6,7 +6,7 @@ import ReactImage from '../../images/ServicesImages/react.svg';
 
 export const Services = () => {
     return (
-        <div className="servicesContainer">
+        <div className="servicesContainer" id="services">
             <h1 className="serviceHeading">Services I Provide</h1>
             <Grid container>
                 <Grid item xs={12} md={6}  className="serviceGrid">
