@@ -24,7 +24,7 @@ label.logo {
     margin: 0 5px;
 }
 
-.navbar ul li a {
+.navbar ul li .link {
     color: white;
     font-size: 17px;
     padding: 7px 13px;
@@ -32,7 +32,7 @@ label.logo {
     text-transform: uppercase;
 }
 
-a.active, a:hover {
+a.active, .link:hover {
     background: #1b9bff;
     transition: .5s;
 }
@@ -56,7 +56,7 @@ a.active, a:hover {
         font-size: 30px;
         padding-left: 50px;
     }
-    .navbar ul li a {
+    .navbar ul li .link {
         font-size: 16px;
 
     }
@@ -83,10 +83,10 @@ a.active, a:hover {
         line-height: 30px;
     }
 
-    .navbar ul li a {
+    .navbar ul li .link {
         font-size: 20px;
     }
-    a:hover,a.active {
+    link:hover,a.active {
         background: none;
         color: #0082e6 !important;
     }
