@@ -3,7 +3,10 @@
 }
 
 .contactContainer img {
-    height: 100px;
-    border: 1px solid black;
+    margin: 1rem;
+    box-shadow: 6px 6px 10px grey;
+    width: 170px;
+    border: 1px solid #000;
     border-radius: 50%;
+    height: 170px;
 }
