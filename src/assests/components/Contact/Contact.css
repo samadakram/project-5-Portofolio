@@ -38,3 +38,16 @@
     user-select: none;
     transition: all .2s ease-in 0s;
 }
+
+.contactLink i {
+    cursor: pointer;
+    margin: .3rem;
+    display: inline-block;
+    font-size: 1.3rem;
+    position: relative;
+    text-align: center;
+    padding: .1rem;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
