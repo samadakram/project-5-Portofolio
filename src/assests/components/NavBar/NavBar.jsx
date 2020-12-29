@@ -11,11 +11,31 @@ export const NavBar = () => {
             </label>
             <label className="logo"> Samad </label>
             <ul>
-                <li><a className="active link" href="#">Home</a></li>
-                <li><a className="link" href="#">Services</a></li>
-                <li><a className="link" href="#">Skills</a></li>
-                <li><a className="link" href="#">Projects</a></li>
-                <li><a className="link" href="#">Contact</a></li>
+                <li>
+                    <Link>
+                        <a className="active link" href="#">Home</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link>
+                        <a className="link" href="#">Services</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link>
+                        <a className="link" href="#">Skills</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link>
+                        <a className="link" href="#">Projects</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link>
+                        <a className="link" href="#">Contact</a>
+                    </Link>
+                </li>
             </ul>
         </div>
     );
