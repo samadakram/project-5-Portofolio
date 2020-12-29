@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Grid } from '@material-ui/core';
 import './Skills.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 export const Skills = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 3000 });
+    }, []);
+
     return (
-        <div className="skillsContainer" id="skills">
+        <div className="skillsContainer" id="skills" data-aos="fade-right">
             <h1 class="skillsHeading">What I Am Good At &nbsp;&nbsp;?</h1>
             <div className="techs">
                 <Grid container>
