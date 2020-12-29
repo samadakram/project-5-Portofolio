@@ -1,12 +1,17 @@
 .navbar {
     border: 1px solid black;
-    background: #0082e6;
+    background: #fff;
     height: 80px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    color: black;
+    box-shadow: 2px 2px 4px grey;
 }
 
 label.logo {
-    color: white;
+    color: black;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -25,7 +30,7 @@ label.logo {
 }
 
 .navbar ul li .link {
-    color: white;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
