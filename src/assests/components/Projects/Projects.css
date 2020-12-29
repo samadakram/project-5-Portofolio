@@ -3,6 +3,9 @@
     margin: 3rem 0;
     font-family: "Varela Round",sans-serif;
     color: black;
+    font-size: 1.3rem;
+    padding: 2rem;
+    min-height: 90vh;
 }
 
 .projectHeading {
