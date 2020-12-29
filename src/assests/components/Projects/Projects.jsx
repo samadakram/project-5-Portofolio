@@ -23,64 +23,112 @@ export const Projects = () => {
                 <Grid container>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard" data-aos="flip-right">
-                            <div>
-                                <img src={ExpenseTracker} alt="Expense Tracker" />
-                            </div>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="http://expense-tracker-app-samadrind.surge.sh"
+                            >
+                                <div>
+                                    <img src={ExpenseTracker} alt="Expense Tracker" />
+                                </div>
+                            </a>
                             <div>
                                 <div className="projectText">
                                     <h3>Expense Tracker</h3>
                                 </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github" id="github"></i>
-                                    <i className="fas fa-external-link-alt" id="live"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="http://expense-tracker-app-samadrind.surge.sh"
+                                    >
+                                        <i className="fas fa-external-link-alt" id="live"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard" data-aos="flip-left">
-                            <div>
-                                <img src={Covid19} alt="Covid-19 Tracker" />
-                            </div>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="http://covid-19-tracker-app-samadrind.surge.sh"
+                            >
+                                <div>
+                                    <img src={Covid19} alt="Covid-19 Tracker" />
+                                </div>
+                            </a>
                             <div>
                                 <div className="projectText">
                                     <h3>Covid-19 Tracker</h3>
                                 </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github" id="github"></i>
-                                    <i className="fas fa-external-link-alt" id="live"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="http://covid-19-tracker-app-samadrind.surge.sh"
+                                    >
+                                        <i className="fas fa-external-link-alt" id="live"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard" data-aos="flip-right">
-                            <div>
-                                <img src={ShoesStore} alt="Shoes Store" />
-                            </div>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="http://shoe-store-samadrind.surge.sh"
+                            >
+                                <div>
+                                    <img src={ShoesStore} alt="Shoes Store" />
+                                </div>
+                            </a>
                             <div>
                                 <div className="projectText">
                                     <h3>Shoes Store</h3>
                                 </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github" id="github"></i>
-                                    <i className="fas fa-external-link-alt" id="live"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="http://shoe-store-samadrind.surge.sh"
+                                    >
+                                        <i className="fas fa-external-link-alt" id="live"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </Grid>
                     <Grid item className="projectGrid" xs={12} md={6}>
                         <div className="projectCard" data-aos="flip-left">
-                            <div>
-                                <img src={CortexClone} alt="Cortex Clone" />
-                            </div>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="http://cortex-ui-clone-samadrind.surge.sh"
+                            >
+                                <div>
+                                    <img src={CortexClone} alt="Cortex Clone" />
+                                </div>
+                            </a>
                             <div>
                                 <div className="projectText">
                                     <h3>Cortex Clone</h3>
                                 </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github" id="github"></i>
-                                    <i className="fas fa-external-link-alt" id="live"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="http://cortex-ui-clone-samadrind.surge.sh"
+                                    >
+                                        <i className="fas fa-external-link-alt" id="live"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
