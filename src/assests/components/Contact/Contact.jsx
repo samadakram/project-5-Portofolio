@@ -11,7 +11,7 @@ export const Contact = () => {
                     <img src={Profile} alt="Profile" />
                 </Grid>
                 <Grid item xs={12}>
-                    <h3>Contact</h3>
+                    <h1 className="contactHeading">Contact</h1>
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <div className="contactCard">
