@@ -17,7 +17,7 @@ export const Projects = () => {
     }, []);
 
     return (
-        <div className="projectsContainer" id="portofolio" data-aos="fade-up">
+        <div className="projectsContainer" id="portfolio" data-aos="fade-up">
             <h1 className="projectHeading">Projects I have Built</h1>
             <div className="projects">
                 <Grid container>
