@@ -19,8 +19,10 @@ export const Projects = () => {
                             <div>
                                 <img src={ExpenseTracker} alt="Expense Tracker" />
                             </div>
-                            <div className="projectText">
-                                <h3>Expense Tracker</h3>
+                            <div>
+                                <div className="projectText">
+                                    <h3>Expense Tracker</h3>
+                                </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
@@ -33,8 +35,10 @@ export const Projects = () => {
                             <div>
                                 <img src={Covid19} alt="Covid-19 Tracker" />
                             </div>
-                            <div className="projectText">
-                                <h3>Covid-19 Tracker</h3>
+                            <div>
+                                <div className="projectText">
+                                    <h3>Covid-19 Tracker</h3>
+                                </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
@@ -47,8 +51,10 @@ export const Projects = () => {
                             <div>
                                 <img src={ShoesStore} alt="Shoes Store" />
                             </div>
-                            <div className="projectText">
-                                <h3>Shoes Store</h3>
+                            <div>
+                                <div className="projectText">
+                                    <h3>Shoes Store</h3>
+                                </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
@@ -61,8 +67,10 @@ export const Projects = () => {
                             <div>
                                 <img src={CortexClone} alt="Cortex Clone" />
                             </div>
-                            <div className="projectText">
-                                <h3>Cortex Clone</h3>
+                            <div>
+                                <div className="projectText">
+                                    <h3>Cortex Clone</h3>
+                                </div>
                                 <div className="projectIcons">
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
