@@ -5,7 +5,7 @@ import Profile from '../../images/ContactImages/Profile.jpg';
 
 export const Contact = () => {
     return (
-        <div className="contactContainer">
+        <div className="contactContainer" id="contact">
             <Grid container>
                 <Grid item xs={12} className="contactGrid">
                     <img src={Profile} alt="Profile" />
