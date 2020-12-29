@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Contact.css';
 import { Grid } from '@material-ui/core';
 import Profile from '../../images/ContactImages/Profile.jpg';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export const Contact = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 3000 });
+    }, []);
+
     return (
-        <div className="contactContainer" id="contact">
+        <div className="contactContainer" id="contact" data-aos="zoom-in">
             <Grid container>
                 <Grid item xs={12} className="contactGrid">
                     <img src={Profile} alt="Profile" />
