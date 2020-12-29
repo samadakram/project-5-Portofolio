@@ -40,6 +40,10 @@
     margin-bottom: 8px;
 }
 
+.span {
+    padding: 10px;
+}
+
 .contactLink i {
     cursor: pointer;
     margin: .5rem;
