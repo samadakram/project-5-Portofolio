@@ -13,7 +13,7 @@ export const NavBar = () => {
             <ul>
                 <li>
                     <Link
-                    className="active link"
+                    className="link"
                     activeClass="active"
                     to="home"
                     spy={true}
@@ -26,6 +26,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                     <Link
+                    className="link"
                     activeClass="active"
                     to="services"
                     spy={true}
@@ -33,11 +34,12 @@ export const NavBar = () => {
                     offset={-70}
                     duration={500}
                     >
-                        <a className="link" href="#">Services</a>
+                        Services
                     </Link>
                 </li>
                 <li>
                     <Link
+                    className="link"
                     activeClass="active"
                     to="skills"
                     spy={true}
@@ -45,11 +47,12 @@ export const NavBar = () => {
                     offset={-70}
                     duration={500}
                     >
-                        <a className="link" href="#">Skills</a>
+                        Skills
                     </Link>
                 </li>
                 <li>
                     <Link
+                    className="link"
                     activeClass="active"
                     to="portofolio"
                     spy={true}
@@ -57,11 +60,12 @@ export const NavBar = () => {
                     offset={-70}
                     duration={500}
                     >
-                        <a className="link" href="#">Portofolio</a>
+                        Portofolio
                     </Link>
                 </li>
                 <li>
                     <Link
+                    className="link"
                     activeClass="active"
                     to="contact"
                     spy={true}
@@ -69,7 +73,7 @@ export const NavBar = () => {
                     offset={-70}
                     duration={500}
                     >
-                        <a className="link" href="#">Contact</a>
+                        Contact
                     </Link>
                 </li>
             </ul>
