@@ -7,13 +7,13 @@ export const Contact = () => {
     return (
         <div className="contactContainer">
             <Grid container>
-                <Grid item xs={12}>
+                <Grid item xs={12} className="contactGrid">
                     <img src={Profile} alt="Profile" />
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} className="contactGrid">
                     <h1 className="contactHeading">Contact</h1>
                 </Grid>
-                <Grid item xs={12} md={4}>
+                <Grid item xs={12} md={4} className="contactGridCard">
                     <div className="contactCard">
                         <div className="contactIcon">
                             <i className="fas fa-envelope"></i>
@@ -26,7 +26,7 @@ export const Contact = () => {
                         </div>
                     </div>
                 </Grid>
-                <Grid item xs={12} md={4}>
+                <Grid item xs={12} md={4} className="contactGridCard">
                     <div className="contactCard">
                         <div className="contactIcon">
                             <i className="fas fa-globe"></i>
@@ -50,7 +50,7 @@ export const Contact = () => {
                         </div>
                     </div>
                 </Grid>
-                <Grid item xs={12} md={4}>
+                <Grid item xs={12} md={4} className="contactGridCard">
                     <div className="contactCard">
                         <div className="contactIcon">
                             <i className="fas fa-phone"></i>
