@@ -17,6 +17,7 @@ label.logo {
     padding: 0 100px;
     font-weight: bold;
     font-family: "Acme",sans-serif;
+    cursor: pointer;
 }
 
 .navbar ul {
