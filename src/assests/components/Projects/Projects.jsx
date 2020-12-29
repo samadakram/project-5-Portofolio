@@ -24,8 +24,8 @@ export const Projects = () => {
                                     <h3>Expense Tracker</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github"></i>
-                                    <i className="fas fa-external-link-alt"></i>
+                                    <i className="fab fa-github" id="github"></i>
+                                    <i className="fas fa-external-link-alt" id="live"></i>
                                 </div>
                             </div>
                         </div>
@@ -40,8 +40,8 @@ export const Projects = () => {
                                     <h3>Covid-19 Tracker</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github"></i>
-                                    <i className="fas fa-external-link-alt"></i>
+                                    <i className="fab fa-github" id="github"></i>
+                                    <i className="fas fa-external-link-alt" id="live"></i>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ export const Projects = () => {
                                     <h3>Shoes Store</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github"></i>
-                                    <i className="fas fa-external-link-alt"></i>
+                                    <i className="fab fa-github" id="github"></i>
+                                    <i className="fas fa-external-link-alt" id="live"></i>
                                 </div>
                             </div>
                         </div>
@@ -72,8 +72,8 @@ export const Projects = () => {
                                     <h3>Cortex Clone</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github"></i>
-                                    <i className="fas fa-external-link-alt"></i>
+                                    <i className="fab fa-github" id="github"></i>
+                                    <i className="fas fa-external-link-alt" id="live"></i>
                                 </div>
                             </div>
                         </div>
