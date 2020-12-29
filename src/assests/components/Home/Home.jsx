@@ -18,7 +18,7 @@ export const Home = () => {
     // }});
 
     return (
-        <div className="homeContainer">
+        <div className="homeContainer" id="home">
             <Grid container>
                 <Grid className="homeGrid textGrid" item xs={12} md={6}>
                     <h4 className="welcome">WELCOME TO MY WORLD</h4>
