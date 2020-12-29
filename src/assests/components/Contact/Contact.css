@@ -56,3 +56,37 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+.contactLink i:hover {
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 20%;
+}
+
+.contactLink #github {
+    color: rgba(0,0,0,.884);
+}
+.contactLink #github:hover {
+    color: rgba(0,0,0,.884);
+}
+
+.contactLink #facebook {
+    color: #1c1ce7;
+}
+.contactLink #facebook:hover {
+    color: #1c1ce7;
+}
+
+.contactLink #twitter {
+    color: rgba(0,183,255,.9450980392156862);
+}
+
+.contactLink #twitter:hover {
+    color: rgba(0,183,255,.9450980392156862);
+}
+
+.contactLink #instagram {
+    color: #d6542d;
+}
+.contactLink #instagram:hover {
+    color: #d6542d;
+}
