@@ -9,6 +9,15 @@
     margin: 2rem 0;
 }
 
+.techs {
+    box-shadow: 3px 2px 10px grey;
+    min-height: 12rem;
+    border-radius: 20px;
+    padding: 3rem;
+    margin: 2rem;
+    text-align: center;
+}
+
 .skillItem {
     border: 1px solid aqua;
     text-align: center;
