@@ -10,3 +10,9 @@
     border-radius: 50%;
     height: 170px;
 }
+
+.contactHeading {
+    margin: 2rem 0;
+    font-family: "Varela Round",sans-serif;
+    color: #000;
+}
