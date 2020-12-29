@@ -1,5 +1,10 @@
 .skillsContainer {
     border: 1px solid orange;
+    margin: 2rem 0;
+}
+
+.skillsHeading {
+    margin: 2rem 0;
 }
 
 .skillItem {
