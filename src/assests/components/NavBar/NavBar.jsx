@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './NavBar.css';
 
 export const NavBar = () => {
     return (
         <div className="navbar">
-            <input type="checkbox" id="check"/>
+            <input type="checkbox" id="check" />
             <label htmlFor="check" className="checkbtn">
                 <i className="fas fa-bars"></i>
             </label>
