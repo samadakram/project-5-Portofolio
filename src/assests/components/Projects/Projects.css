@@ -80,5 +80,6 @@
 }
 
 .projectIcons i:hover {
+    opacity: .8;
     transition: all .2s ease-in 0s;
 }
