@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import './NavBar.css';
 
 export const NavBar = () => {
@@ -9,15 +9,11 @@ export const NavBar = () => {
             <label htmlFor="check" className="checkbtn">
                 <i className="fas fa-bars"></i>
             </label>
-            <label className="logo">
-                <Link
-                    to="/home"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                >
-                    Samad
-                </Link>
+            <label
+                className="logo"
+                onClick={() => { scroll.scrollToTop() }}
+            >
+                Samad
             </label>
             <ul>
                 <li>
