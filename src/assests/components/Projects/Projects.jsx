@@ -20,7 +20,7 @@ export const Projects = () => {
                                 <img src={ExpenseTracker} alt="Expense Tracker" />
                             </div>
                             <div className="projectText">
-                                <p>Expense Tracker</p>
+                                <h3>Expense Tracker</h3>
                                 <div>
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
@@ -34,7 +34,7 @@ export const Projects = () => {
                                 <img src={Covid19} alt="Covid-19 Tracker" />
                             </div>
                             <div className="projectText">
-                                <p>Covid-19 Tracker</p>
+                                <h3>Covid-19 Tracker</h3>
                                 <div>
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
@@ -48,7 +48,7 @@ export const Projects = () => {
                                 <img src={ShoesStore} alt="Shoes Store" />
                             </div>
                             <div>
-                                <p>Shoes Store</p>
+                                <h3>Shoes Store</h3>
                                 <div className="projectText">
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
@@ -62,7 +62,7 @@ export const Projects = () => {
                                 <img src={CortexClone} alt="Cortex Clone" />
                             </div>
                             <div className="projectText">
-                                <p>Cortex Clone</p>
+                                <h3>Cortex Clone</h3>
                                 <div>
                                     <i className="fab fa-github"></i>
                                     <i className="fas fa-external-link-alt"></i>
