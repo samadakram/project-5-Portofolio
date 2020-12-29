@@ -18,7 +18,7 @@ export const NavBar = () => {
                     to="home"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                     >
                        Home
@@ -31,7 +31,7 @@ export const NavBar = () => {
                     to="services"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                     >
                         Services
@@ -44,7 +44,7 @@ export const NavBar = () => {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                     >
                         Skills
@@ -57,7 +57,7 @@ export const NavBar = () => {
                     to="portofolio"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                     >
                         Portofolio
@@ -70,7 +70,7 @@ export const NavBar = () => {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                     >
                         Contact
