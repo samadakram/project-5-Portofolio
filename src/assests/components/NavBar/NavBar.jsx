@@ -4,18 +4,16 @@ import './NavBar.css';
 
 export const NavBar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar" id="top">
             <input type="checkbox" id="check" />
             <label htmlFor="check" className="checkbtn">
                 <i className="fas fa-bars"></i>
             </label>
             <label className="logo">
                 <Link
-                    activeClass="active"
                     to="home"
                     spy={true}
                     smooth={true}
-                    offset={0}
                     duration={500}
                 >
                     Samad
