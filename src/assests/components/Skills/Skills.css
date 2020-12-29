@@ -7,6 +7,7 @@
 
 .skillsHeading {
     margin: 2rem 0;
+    text-align: center;
 }
 
 .techs {
@@ -21,6 +22,7 @@
 .skillItem {
     border: 1px solid aqua;
     text-align: center;
+    margin-top: .8rem !important;
 }
 
 .techs i {
