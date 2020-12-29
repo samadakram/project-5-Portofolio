@@ -11,7 +11,7 @@ import CortexClone from '../../images/ProjectImages/cortex.PNG';
 export const Projects = () => {
     return (
         <div className="projectsContainer">
-            <h1>Projects</h1>
+            <h1 className="projectHeading">Projects</h1>
             <div className="projects">
                 <Grid container>
                     <Grid item className="projectGrid" xs={12} md={6}>
