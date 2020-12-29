@@ -37,7 +37,13 @@ export const Projects = () => {
                                     <h3>Expense Tracker</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github" id="github"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="https://github.com/samadakram/Expense-Tracker-App"
+                                    >
+                                        <i className="fab fa-github" id="github"></i>
+                                    </a>
                                     <a
                                         rel="noopener noreferrer"
                                         target="_blank"
@@ -65,7 +71,13 @@ export const Projects = () => {
                                     <h3>Covid-19 Tracker</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github" id="github"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="https://github.com/samadakram/Covid-19-Tracker"
+                                    >
+                                        <i className="fab fa-github" id="github"></i>
+                                    </a>
                                     <a
                                         rel="noopener noreferrer"
                                         target="_blank"
@@ -93,7 +105,13 @@ export const Projects = () => {
                                     <h3>Shoes Store</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github" id="github"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="https://github.com/samadakram/Shoes-store"
+                                    >
+                                        <i className="fab fa-github" id="github"></i>
+                                    </a>
                                     <a
                                         rel="noopener noreferrer"
                                         target="_blank"
@@ -121,7 +139,13 @@ export const Projects = () => {
                                     <h3>Cortex Clone</h3>
                                 </div>
                                 <div className="projectIcons">
-                                    <i className="fab fa-github" id="github"></i>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        href="https://github.com/samadakram/FrontPage-clone"
+                                    >
+                                        <i className="fab fa-github" id="github"></i>
+                                    </a>
                                     <a
                                         rel="noopener noreferrer"
                                         target="_blank"
