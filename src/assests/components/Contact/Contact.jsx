@@ -32,7 +32,7 @@ export const Contact = () => {
                             <i className="fas fa-globe"></i>
                         </div>
                         <div className="contactEmail">
-                            <span>Social Media</span>
+                            <span className="span">Social Media</span>
                         </div>
                         <div className="contactLink">
                             <a rel="noopener noreferrer" target="_blank" href="https://github.com/samadakram">
@@ -56,10 +56,10 @@ export const Contact = () => {
                             <i className="fas fa-phone"></i>
                         </div>
                         <div className="contactEmail">
-                            <span>Phone</span>
+                            <span className="span">Phone</span>
                         </div>
                         <div className="contactLink">
-                            <span>+923213143790</span>
+                            <span className="span">+923213143790</span>
                         </div>
                     </div>
                 </Grid>
