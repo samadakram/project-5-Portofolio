@@ -9,69 +9,80 @@ export const NavBar = () => {
             <label htmlFor="check" className="checkbtn">
                 <i className="fas fa-bars"></i>
             </label>
-            <label className="logo"> Samad </label>
-            <ul>
-                <li>
-                    <Link
-                    className="link"
+            <label className="logo">
+                <Link
                     activeClass="active"
                     to="home"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration={500}
+                >
+                    Samad
+                </Link>
+            </label>
+            <ul>
+                <li>
+                    <Link
+                        className="link"
+                        activeClass="active"
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
                     >
-                       Home
+                        Home
                     </Link>
                 </li>
                 <li>
                     <Link
-                    className="link"
-                    activeClass="active"
-                    to="services"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
+                        className="link"
+                        activeClass="active"
+                        to="services"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
                     >
                         Services
                     </Link>
                 </li>
                 <li>
                     <Link
-                    className="link"
-                    activeClass="active"
-                    to="skills"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
+                        className="link"
+                        activeClass="active"
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
                     >
                         Skills
                     </Link>
                 </li>
                 <li>
                     <Link
-                    className="link"
-                    activeClass="active"
-                    to="portofolio"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
+                        className="link"
+                        activeClass="active"
+                        to="portofolio"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
                     >
                         Portofolio
                     </Link>
                 </li>
                 <li>
                     <Link
-                    className="link"
-                    activeClass="active"
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
+                        className="link"
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
                     >
                         Contact
                     </Link>
