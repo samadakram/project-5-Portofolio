@@ -15,7 +15,7 @@ label.logo {
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
-    font-family: "Acme",sans-serif;
+    font-family: "Acme", sans-serif;
     cursor: pointer;
 }
 
@@ -36,7 +36,7 @@ label.logo {
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: "Varela Round",sans-serif;
+    font-family: "Varela Round", sans-serif;
     cursor: pointer;
 }
 
@@ -60,14 +60,13 @@ label.logo {
     display: none;
 }
 
-@media (max-width: 952px){
+@media (max-width: 952px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
     }
     .navbar ul li .link {
         font-size: 16px;
-
     }
 }
 
@@ -91,15 +90,14 @@ label.logo {
         margin: 50px 0;
         line-height: 30px;
     }
-
     .navbar ul li .link {
         font-size: 20px;
     }
-    .link:hover,.active {
+    .link:hover, .active {
         background: none;
         color: #ffb000 !important;
     }
-    #check:checked ~ ul{
+    #check:checked~ul {
         left: 0;
     }
 }
