@@ -9,12 +9,11 @@
     border: 1px solid #000;
     border-radius: 50%;
     height: 170px;
-    
 }
 
 .contactHeading {
     margin: 2rem 0;
-    font-family: "Varela Round",sans-serif;
+    font-family: "Varela Round", sans-serif;
     color: #000;
     text-align: center;
 }
@@ -60,36 +59,39 @@
     background-color: white;
 }
 
-.contactLink  i:hover {
+.contactLink i:hover {
     box-shadow: 2px 2px 4px grey;
     border-radius: 20%;
 }
 
 .contactLink #github {
-    color: rgba(0,0,0,.884);
+    color: rgba(0, 0, 0, .884);
 }
+
 .contactLink #github:hover {
-    color: rgba(0,0,0,.884);
+    color: rgba(0, 0, 0, .884);
 }
 
 .contactLink #facebook {
     color: #1c1ce7;
 }
+
 .contactLink #facebook:hover {
     color: #1c1ce7;
 }
 
 .contactLink #twitter {
-    color: rgba(0,183,255,.9450980392156862);
+    color: rgba(0, 183, 255, .9450980392156862);
 }
 
 .contactLink #twitter:hover {
-    color: rgba(0,183,255,.9450980392156862);
+    color: rgba(0, 183, 255, .9450980392156862);
 }
 
 .contactLink #instagram {
     color: #d6542d;
 }
+
 .contactLink #instagram:hover {
     color: #d6542d;
 }
