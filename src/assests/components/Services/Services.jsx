@@ -8,9 +8,9 @@ import 'aos/dist/aos.css';
 
 export const Services = () => {
 
-    useEffect(()=>{
-        Aos.init({duration:7000});
-    },[]);
+    useEffect(() => {
+        Aos.init({ duration: 7000 });
+    }, []);
 
     return (
         <div className="servicesContainer" id="services" data-aos="zoom-in">
