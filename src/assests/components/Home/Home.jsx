@@ -27,11 +27,11 @@ export const Home = () => {
                     <h1 className="name">Hi, I'm Abdul Samad</h1>
                     <h1 className="country">from Pakistan</h1>
                     <Link
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
                     >
                         <button className="button">Contact me</button>
                     </Link>
