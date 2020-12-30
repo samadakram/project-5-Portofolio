@@ -13,7 +13,7 @@ export const NavBar = () => {
                 className="logo"
                 onClick={() => { scroll.scrollToTop() }}
             >
-                {"< Samad />"}
+                {"<Samad />"}
             </label>
             <ul>
                 <li>
