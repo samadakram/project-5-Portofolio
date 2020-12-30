@@ -1,5 +1,5 @@
 .footerContainer {
-    font-family: "Exo 2",sans-serif;
+    font-family: "Exo 2", sans-serif;
     display: flex;
     color: #000;
     font-size: .7rem;
@@ -13,7 +13,7 @@
 
 .footerContainer a {
     text-decoration: none;
-    font-family: "Varela Round",sans-serif;
+    font-family: "Varela Round", sans-serif;
     color: #ffb000;
     text-shadow: 1px 1px 1px #000;
 }
